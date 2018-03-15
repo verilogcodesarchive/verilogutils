@@ -38,6 +38,10 @@ have issues.
 
 * `uart_tx.v` -- UART transmitter.
 
+* `comprator_3bit` -- comprator with three inputs.
+
+* `comprator_8bit` -- comprator with eight inputs.
+
 * `div_pipelined.v` -- Pipelined division module (**largely untested**)
 
 ## Submodules
@@ -58,7 +62,7 @@ And recursively updated with:
 git submodule foreach git pull origin master
 ```
 
-* [hdl-scripts](https://github.com/seldridge/hdl-scripts) --
+* [hdl-tools]() --
   Basically, a dumping ground of scripts I've written that make
   working with HDLs easier. For example, `addWavesRecursive.tcl` will
   populate a GTKWave configuration with the module hierarchy found in

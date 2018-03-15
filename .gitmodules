@@ -1,3 +1,0 @@
-[submodule "util/hdl-tools"]
-	path = util/hdl-tools
-	url = https://github.com/ibm/hdl-tools
